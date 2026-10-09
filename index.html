@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShoesHub</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+</head>
+
+<body class="bg-white text-dark">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid px-4 py-3">
+
+            <a class="navbar-brand fw-bold fs-3" href="#">
+                ShoesHub
+            </a>
+
+            <div class="d-flex">
+                <a href="#" class="nav-link text-white mx-2">Home</a>
+                <a href="#" class="nav-link text-white mx-2">Men</a>
+                <a href="#" class="nav-link text-white mx-2">Women</a>
+                <a href="#" class="nav-link text-white mx-2">Kids</a>
+                <a href="#" class="nav-link text-white mx-2">Cart</a>
+
+                <a href="#"
+                    class="nav-link text-white mx-2"
+                    data-bs-toggle="modal"
+                    data-bs-target="#loginModal">
+                    Login
+                </a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Sidebar -->
+            <div class="col-md-3 bg-white border-end p-4">
+
+                <div class="bg-dark text-white fw-bold p-3">
+                    SHOE TYPES
+                </div>
+
+                <a href="#"
+                    class="d-block text-decoration-none text-dark border p-3">
+                    Sneakers
+                </a>
+
+                <a href="#"
+                    class="d-block text-decoration-none text-dark border border-top-0 p-3">
+                    Casual
+                </a>
+
+                <a href="#"
+                    class="d-block text-decoration-none text-dark border border-top-0 p-3">
+                    Formal
+                </a>
+
+                <a href="#"
+                    class="d-block text-decoration-none text-dark border border-top-0 p-3">
+                    Running
+                </a>
+
+                <a href="#"
+                    class="d-block text-decoration-none text-dark border border-top-0 p-3">
+                    Walking
+                </a>
+
+            </div>
+
+            <!-- Products Section -->
+            <div class="col-md-9 p-4">
+
+                <h2 class="fw-bold mb-4">
+                    Featured Shoes
+                </h2>
+
+                <!-- First Row -->
+                <div class="row g-4">
+
+                    <!-- Shoe 1 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/1.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="Nike Air Max">
+
+                            <div class="card-body">
+                                <small class="text-secondary">Nike</small>
+
+                                <h5 class="fw-bold">
+                                    Air Max Running Shoes
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Running
+                                </p>
+
+                                <h5 class="fw-bold">₹12,999</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Shoe 2 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/2.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="Adidas Ultraboost">
+
+                            <div class="card-body">
+                                <small class="text-secondary">Adidas</small>
+
+                                <h5 class="fw-bold">
+                                    Ultraboost Sneakers
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Sneakers
+                                </p>
+
+                                <h5 class="fw-bold">₹10,999</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Shoe 3 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/3.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="Puma RS-X">
+
+                            <div class="card-body">
+                                <small class="text-secondary">Puma</small>
+
+                                <h5 class="fw-bold">
+                                    RS-X Casual Sneakers
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Casual
+                                </p>
+
+                                <h5 class="fw-bold">₹8,499</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Second Row -->
+                <div class="row g-4 mt-1">
+
+                    <!-- Shoe 4 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/4.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="New Balance">
+
+                            <div class="card-body">
+                                <small class="text-secondary">New Balance</small>
+
+                                <h5 class="fw-bold">
+                                    Fresh Foam Running Shoes
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Running
+                                </p>
+
+                                <h5 class="fw-bold">₹11,499</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Shoe 5 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/5.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="Reebok">
+
+                            <div class="card-body">
+                                <small class="text-secondary">Reebok</small>
+
+                                <h5 class="fw-bold">
+                                    Classic Leather Shoes
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Casual
+                                </p>
+
+                                <h5 class="fw-bold">₹7,999</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Shoe 6 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/6.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="ASICS">
+
+                            <div class="card-body">
+                                <small class="text-secondary">ASICS</small>
+
+                                <h5 class="fw-bold">
+                                    Gel-Kayano Running Shoes
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Running
+                                </p>
+
+                                <h5 class="fw-bold">₹13,499</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Third Row -->
+                <div class="row g-4 mt-1">
+
+                    <!-- Shoe 7 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/7.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="Converse">
+
+                            <div class="card-body">
+                                <small class="text-secondary">Converse</small>
+
+                                <h5 class="fw-bold">
+                                    Chuck Taylor Sneakers
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Sneakers
+                                </p>
+
+                                <h5 class="fw-bold">₹6,499</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Shoe 8 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/8.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="Vans">
+
+                            <div class="card-body">
+                                <small class="text-secondary">Vans</small>
+
+                                <h5 class="fw-bold">
+                                    Old Skool Sneakers
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Sneakers
+                                </p>
+
+                                <h5 class="fw-bold">₹7,499</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Shoe 9 -->
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border rounded">
+
+                            <img src="images/9.jpg"
+                                class="card-img-top"
+                                style="height:280px; object-fit:cover;"
+                                alt="Under Armour">
+
+                            <div class="card-body">
+                                <small class="text-secondary">Under Armour</small>
+
+                                <h5 class="fw-bold">
+                                    HOVR Training Shoes
+                                </h5>
+
+                                <p class="text-secondary mb-2">
+                                    Type: Walking
+                                </p>
+
+                                <h5 class="fw-bold">₹9,999</h5>
+
+                                <button class="btn btn-dark w-100 mt-2">
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Pagination -->
+                <nav class="mt-5">
+                    <ul class="pagination justify-content-center">
+
+                        <li class="page-item disabled">
+                            <a class="page-link">Previous</a>
+                        </li>
+
+                        <li class="page-item active">
+                            <a class="page-link bg-dark border-dark">1</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link text-dark" href="#">2</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link text-dark" href="#">3</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link text-dark" href="#">Next</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade"
+        id="loginModal"
+        tabindex="-1"
+        aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="loginModalLabel">
+                        Login to ShoesHub
+                    </h5>
+
+                    <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+
+                            <input type="email"
+                                class="form-control"
+                                placeholder="Enter your email"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+
+                            <input type="password"
+                                class="form-control"
+                                placeholder="Enter your password"
+                                required>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input"
+                                type="checkbox"
+                                id="rememberMe">
+
+                            <label class="form-check-label" for="rememberMe">
+                                Remember me
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark w-100">
+                            Login
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
